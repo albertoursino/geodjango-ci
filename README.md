@@ -15,9 +15,3 @@ Build locally from this directory:
 ```bash
 docker build --tag geodjango-ci:local .
 ```
-
-## Publishing
-
-Changes to the Dockerfile, build context rules, or publishing workflow on `main` publish `ghcr.io/albertoursino/geodjango-ci:ubuntu24.04`. Run **Publish CI image** manually on `main` to rebuild without cached layers for system updates.
-
-After the first publish, set the `geodjango-ci` package visibility to **Public** in GitHub's package settings. The package links to this repository and displays this README.
